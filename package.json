@@ -19,5 +19,8 @@
   "homepage": "https://github.com/goruchanchan/hot_book_deliverer#readme",
   "devDependencies": {
     "node-fetch": "^3.3.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.8"
   }
 }

@@ -1,11 +1,14 @@
 import fetch from 'node-fetch';
+import minimist from "minimist";
 
 class Inquiry{
 
-  constructor(api_key, keyword){
-    this.api_key = api_key;
-    this.keyword = keyword;
-    this.url = 'http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=' + api_key + '&keyword=' + encodeURIComponent(keyword) + '&format=json';
+  constructor(){
+    this.option = minimist(process.argv.slice(2));
+    console.log(this.option);
+    const api_key = this.option.k;
+    const address = this.option.a;
+    this.url = 'http://webservice.recruit.co.jp/hotpepper/gourmet/v1/?key=' + api_key + '&address=' + encodeURIComponent(address) + '&format=json';
     this.loadShopData();
   }
 
@@ -16,7 +19,7 @@ class Inquiry{
         throw new Error(`${res.status} ${res.statusText}`);
       }
       const data = await res.text();
-      console.log(data)
+      // console.log(data)
       const obj = JSON.parse(data)
   
       obj.results.shop.forEach(element => {
