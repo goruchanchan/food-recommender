@@ -1,9 +1,5 @@
 #!/usr/bin/env node
 
-import Inquiry from "../lib/inquiry.js";
-import City from "../lib/city.js";
-import Patent from "../lib/patent.js";
+import Controller from "../lib/controller.js";
 
-new Inquiry().run();
-// new City();
-// new Patent();
+new Controller().run();
