@@ -108,3 +108,6 @@ dist
 
 # eslint
 .eslintrc.json
+
+# tmp work
+tmp

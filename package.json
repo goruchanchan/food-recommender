@@ -17,12 +17,10 @@
     "url": "https://github.com/goruchanchan/hot_book_deliverer/issues"
   },
   "homepage": "https://github.com/goruchanchan/hot_book_deliverer#readme",
-  "devDependencies": {
-    "node-fetch": "^3.3.0"
-  },
   "dependencies": {
     "enquirer": "^2.3.6",
     "fs": "^0.0.1-security",
+    "got": "^12.6.0",
     "minimist": "^1.2.8"
   }
 }
