@@ -22,5 +22,12 @@
     "fs": "^0.0.1-security",
     "got": "^12.6.0",
     "minimist": "^1.2.8"
-  }
+  },
+  "bin": {
+    "hot-food-recommender": "bin/run.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
