@@ -1,22 +1,22 @@
 {
-  "name": "hot_book_deliverer",
+  "name": "hot-food-recommender",
   "version": "1.0.0",
-  "description": "Provides a list of books on the topic.",
+  "description": "Recommend hot hood shop in Hot Pepper.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goruchanchan/hot_book_deliverer.git"
+    "url": "git+https://github.com/goruchanchan/food-recommender.git"
   },
   "author": "goruchan",
   "license": "MIT",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/goruchanchan/hot_book_deliverer/issues"
+    "url": "https://github.com/goruchanchan/food-recommender/issues"
   },
-  "homepage": "https://github.com/goruchanchan/hot_book_deliverer#readme",
+  "homepage": "https://github.com/goruchanchan/food-recommender#readme",
   "dependencies": {
     "enquirer": "^2.3.6",
     "fs": "^0.0.1-security",
