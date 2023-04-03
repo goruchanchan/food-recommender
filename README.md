@@ -23,7 +23,7 @@ If you want to use latest City Name in Japan, get RESAS-API key.
 1. run hot-food-recommender
 
     ```zsh
-    % hot-food-recommender -key <Hot Pepper API key>
+    % hot-food-recommender --hot-key <Hot Pepper API key>
     ```
 
 2. input city name
@@ -34,7 +34,7 @@ If you want to use latest City Name in Japan, get RESAS-API key.
 if you want to use latest city name in Japan, set `key2` option:
 
 ```zsh
-% hot-food-recommender --key <Hot Pepper API key> --key2 <RESAS-API key>
+% hot-food-recommender --hot-key <Hot Pepper API key> --resas-key <RESAS-API key>
 ```
 
 ### pick list
@@ -42,7 +42,7 @@ if you want to use latest city name in Japan, set `key2` option:
 1. run hot-food-recommender with `l` option.
 
     ```zsh
-    % hot-food-recommender --key <Hot Pepper API key> -l
+    % hot-food-recommender --hot-key <Hot Pepper API key> -l
     ```
 
 2. input city name
