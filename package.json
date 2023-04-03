@@ -1,6 +1,6 @@
 {
   "name": "hot-food-recommender",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Recommend hot hood shop in Hot Pepper.",
   "main": "index.js",
   "scripts": {
